@@ -1,0 +1,72 @@
+{
+  "name": "SAF Casa Synthetic Assets",
+  "timestamp": "2026-10-15T16:43:44.278Z",
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 56,
+      "address": "0x7130D1d8693C300F48A4b778d96290Ff0AfDad9c",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "decimals": 18,
+      "logoURI": "https://luccmick121.github.io/bitcoin/logo.png",
+      "tags": [
+        "bep20",
+        "mirror"
+      ]
+    },
+    {
+      "chainId": 56,
+      "address": "0x4BE31a5FBEEa7D73b59Ae538B56dAC7A60aB7Db4",
+      "symbol": "USDT.z",
+      "name": "Tether USD Bridged ZED20",
+      "decimals": 18,
+      "logoURI": "https://coin-images.coingecko.com/coins/images/38064/large/usdt-z.png?1716441672",
+      "tags": [
+        "bep20",
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0xdAC15c8B27CC1D0AEC5c28F568D7664da0401ec7",
+      "symbol": "MUSDT",
+      "name": "Mini Tether",
+      "decimals": 6,
+      "logoURI": "https://luccmick121.github.io/mini-tether/logo.png",
+      "tags": [
+        "erc20",
+        "stablecoin"
+      ]
+    }
+  ],
+  "keywords": [
+    "casa",
+    "synthetic",
+    "bnb",
+    "ethereum"
+  ],
+  "logoURI": "https://luccmick121.github.io/bitcoin/logo-256.png",
+  "tags": {
+    "bep20": {
+      "name": "bep20",
+      "description": "Token BEP20 na BNB Smart Chain"
+    },
+    "erc20": {
+      "name": "erc20",
+      "description": "Token ERC20 na Ethereum mainnet"
+    },
+    "mirror": {
+      "name": "mirror",
+      "description": "Representacao espelhada de um ativo existente"
+    },
+    "stablecoin": {
+      "name": "stablecoin",
+      "description": "Ativo atrelado a moeda fiduciaria com display em dolar"
+    }
+  }
+}
