@@ -1,9 +1,9 @@
 {
   "name": "SAF Casa Synthetic Assets",
-  "timestamp": "2026-10-15T16:43:44.278Z",
+  "timestamp": "2026-10-16T22:32:33.384Z",
   "version": {
     "major": 0,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   },
   "tokens": [
@@ -28,6 +28,18 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/38064/large/usdt-z.png?1716441672",
       "tags": [
         "bep20",
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0xbADDa8886bB7Aed292c10876aFD89506351874A0",
+      "symbol": "MUSDT",
+      "name": "Mini Tether",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/luccmick121/mini-tether/main/logo-512.png",
+      "tags": [
+        "erc20",
         "stablecoin"
       ]
     },
